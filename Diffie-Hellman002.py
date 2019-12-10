@@ -63,7 +63,11 @@ def crack(prime,primitive_root,keya,keyb):
     shared_key = (keya**ansb)%prime
     return ansa, ansb, shared_key
 
-
+def decipher(prime,primitive_root,keya,keyb):
+    """
+    crack the key using tail_recursion
+    """
+    
 
 print(Primitive_Root(794))
 #diffie_hellman(794,789)
